@@ -29,26 +29,24 @@ that job, no. of applicants half filled the jobs, no. of applicants filled the j
 
 • The project includes 7 charts to give better understanding to recruiters and users about the jobs posted and the profile info.
 
-Setup & Run To run the application, fork and clone the repository, cd into the homeaway-backend directory, then run the following commands to setup & start the server:
+# Setup & Run To run the application fork and clone the repository, 
+# backend setups
+cd into the linkedin-backend directory, then run the following commands to setup & start the server:
 
-$ npm install 
-# install required libraries
+$ npm install  : install required libraries
 
-$ npm start 
-# start the backend server on port 3001
+$ npm start  : start the backend server on port 3001
 
 cd into the kaka_backend directory, then run the following commands to setup & start the server:
 
-$ npm install 
-# install required libraries
+$ npm install : install required libraries
 
-$ npm start 
-# start the kafka
+$ npm start : start the kafka
 
+# frontend setups
 cd into the linkedin-frontend directory, then run the following commands to setup & start the server:
 
-$ npm install 
-# install required libraries
+$ npm install  : install required libraries
 
 $ npm start # start the server on port 3000
 
