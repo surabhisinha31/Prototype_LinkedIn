@@ -399,8 +399,8 @@ router.post('/getrecruiterdashboard', function (req,res,next) {
   d.setMonth(d.getMonth() - 1);
   console.log("Value of d: ", d);
   Applications.find({
-              "RecruiterEmail" : req.body.RecruiterEmail
-
+              "RecruiterEmail" : req.body.RecruiterEmail,
+              "Saved" : false
             })
   .exec()
   .then(result => {

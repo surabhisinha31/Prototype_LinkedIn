@@ -316,7 +316,7 @@ router.post("/users", function(req, res, next) {
   console.time("Query_Time");
   const{first_name} = req.body;
   var result = [];
-  console.log("Inside Search Post Request");
+  console.log("Inside Search Post Request",new Date().toISOString());
 
   /*
   client.get(userresult,function(err,value){
@@ -417,5 +417,3 @@ router.post("/users", function(req, res, next) {
 
 
 module.exports = router;
-
-
